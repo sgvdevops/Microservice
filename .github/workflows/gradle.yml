@@ -9,10 +9,10 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "adservice" ]
-  pull_request:
-    branches: [ "adservice" ]
-
+    branches: [ "main" ]
+    paths:
+      - 'adservice/**'
+      
 jobs:
   build:
 
